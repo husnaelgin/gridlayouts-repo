@@ -1,0 +1,36 @@
+.container {
+  display: grid;
+  width: 40%;
+  height: 600px;
+  grid-template: 2fr 1fr 1fr 1fr 1fr 2fr / repeat(4, 1fr) 1fr 1fr;
+  grid-gap: 20px;
+}
+.item {
+  background-color: black;
+  border: 2px solid grey;
+}
+
+.a {
+  grid-area: 1 / 1 / 2 / 7;
+}
+.b {
+  grid-area: 2 / 1 / 4 / 3;
+}
+.c {
+  grid-area: 2 / 3 / 4 / 5;
+}
+.d {
+  grid-area: 2 / 5 / 4 / 7;
+}
+.e {
+  grid-area: 4 / 1 / 6 / 3;
+}
+.f {
+  grid-area: 4 / 3 / 6 / 5;
+}
+.g {
+  grid-area: 4 / 5 / 6 / 7;
+}
+.h {
+  grid-area: 6 / 1 / 7 / 7;
+}

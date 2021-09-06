@@ -1,0 +1,24 @@
+.container {
+  height: 500px;
+  width: 450px;
+  border: 2px solid grey;
+  display: grid;
+  /* grid-template-columns: 25% 25% 25% 25%;*/
+  grid-template-rows: 70px 40px 70px 100px;
+  grid-gap: 10px 10px;
+}
+.item1 {
+  background-color: black;
+  border: 2px solid grey;
+  grid-area: 1 / 2 / 3/ 5;
+}
+.item2 {
+  background-color: black;
+  grid-area: 1 / 1 / 7/ 2;
+  border: 2px solid grey;
+}
+.item3 {
+  background-color: black;
+  grid-area: 3/ 2 / 7 / 5;
+  border: 2px solid grey;
+}
