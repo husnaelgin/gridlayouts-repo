@@ -1,0 +1,24 @@
+.container {
+  width: 40%;
+  height: 700px;
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr 1fr/ 1.2fr 1fr 1fr 1fr;
+  grid-gap: 25px;
+  border: 2px solid grey;
+}
+.item {
+  background-color: black;
+  border: 2px solid grey;
+}
+.a {
+  grid-area: 1 / 1 / 2 / 10;
+}
+.b {
+  grid-area: 2 / 1 / 7 / 2;
+}
+.c {
+  grid-area: 2 / 2 / 7 / 5;
+}
+.d {
+  grid-area: 2 / 5 / 7 / 10;
+}
